@@ -20,7 +20,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 30px;
+    font-size: 120px;
 }
 
 .box:hover{
@@ -31,4 +31,13 @@ body {
 .game-board{
     display:grid;
     grid-template-columns: 170px 170px 170px;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    height: 40px;
+    width: 70px;
 }
