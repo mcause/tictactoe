@@ -1,5 +1,5 @@
 body {
-    background: #141414;
+    background: #1414146c;
     font-family:Arial, Helvetica, sans-serif;
     color: #0AA6E3;
     text-align: center;
@@ -24,7 +24,7 @@ body {
 }
 
 .box:hover{
-    background: #0AA6E3;
+    background: greenyellow;
     cursor: pointer;
 }
 
@@ -40,4 +40,11 @@ button{
     background: red;
     height: 40px;
     width: 70px;
+}
+
+.h1{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    border: 15px double dotted greenyellow
 }
